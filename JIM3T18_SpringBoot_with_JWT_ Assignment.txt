@@ -1,0 +1,7 @@
+1. Create a Spring Boot application with a simple REST API that allows users to register and login.
+
+2. Implement JWT authentication for the API using the jjwt library. When a user successfully logs in, a JWT should be returned and saved in the user's browser as a cookie.
+
+3. Secure an endpoint in your Spring Boot application using the JWT token. To do this, you will need to create a filter that intercepts requests to the endpoint and verifies that the request includes a valid JWT token. If the token is valid, the request should be allowed to proceed. If the token is invalid or missing, the filter should return an error.
+
+4. Implement JWT token refresh in your Spring Boot application. This will allow users to refresh their JWT token without needing to re-enter their login credentials. You will need to create a new endpoint that accepts a refresh token and returns a new JWT token.
